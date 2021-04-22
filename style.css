@@ -1,0 +1,153 @@
+:root{
+	--cor-input:#1C2833;
+	--cor-principal:#2D2626;
+	--cor-texto-first: black;
+	--cor-texto-second: whitesmoke;
+	--cor-botao: #F12222;
+	--cor-botao-hover: #770A0A;
+}
+
+body{
+	font-family: 'Roboto', sans-serif;
+	background-color: var(--cor-principal);
+
+	background-image: url('https://cdn.folhape.com.br/upload/dn_arquivo/2020/07/stranger-things.jpg');
+	
+ 	background-repeat: no-repeat;
+  	background-size: cover;
+	
+}
+
+.main{
+	height:20vh;
+	display:flex;
+	justify-content:center top;
+	align-items:center;
+	flex-direction: column;
+}
+
+.page-logo {
+	width:50px;
+	height:20px;	
+}
+
+.title{
+	color: var(--cor-texto-second);
+	font-family: 'Major Mono Display', monospace;
+	line-height: 1.6em;
+	padding-left:10px;
+	width:250px;
+}
+
+.sub-title{
+	color: white;
+	
+	line-height: 1.2em;
+	padding-left:10px;
+	
+	width: 100vw;
+	
+	display:flex;
+	justify-content:center
+}
+
+.alura-logo {
+	width: 40px;
+    position: absolute;
+    top: 10px;
+    right:10px;
+}
+
+.container{
+	display:flex;
+	justify-content:center;
+	flex-direction:column;
+	align-items:center;
+	
+
+}
+
+.descricao{
+	margin-bottom:50px;
+	font-size: 1.5em;
+}
+
+.informacoes{
+	display:flex;
+	justify-content:center;
+	flex-direction: column;
+	align-items:center;
+	
+	color: whitesmoke;
+	background-color: var(--cor-input);
+	font-size: 1.5em;
+	width: 20vw;
+		
+	border: 2px solid black;
+	box-shadow: 3px 3px black;
+}
+
+.input-output{
+	color: var(--cor-texto-second);
+
+	height: 10vh;
+	width: 400px;
+	display:flex;
+	
+	background-color: var(--cor-input);
+	
+	flex-direction:column;
+	
+	align-items:center;
+	
+	border: 2px solid black;
+	box-shadow: 4px 5px black;
+}
+
+input{
+	margin-top: 5px;
+	height: 25px;
+	width: 250px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+button{
+	margin-top: 30px;
+	height: 60px;
+	width: 260px;
+	
+	cursor: pointer;
+	
+	border: none;
+	
+	font-family: 'Major Mono Display', monospace;
+	font-size: 1.5em;
+	
+	background-color: var(--cor-botao);
+	color: var(--cor-texto-second);
+	
+	box-shadow: 3px 3px var(--cor-botao-hover);
+}
+
+button:hover{
+	background-color: var(--cor-botao-hover);
+	box-shadow: 3px 3px #340D0D;
+	transition: 0.2s;
+}
+
+button:active{
+	background-color: #C90E63;
+	font-size: 1.4em;
+	transition: 0.1s;
+}
+
+a{
+	color: var(--cor-texto-second);
+	display:flex;
+	justify-content:justify-content;
+}
